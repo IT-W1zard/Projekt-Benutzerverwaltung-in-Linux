@@ -61,7 +61,3 @@ done < created_users.tmp
 
 echo "Fertig!"
 echo "Logdatei: $LOGFILE"
-
-git rm pfad/zur/datei
-git commit -m "remove sensitive file"
-git push
